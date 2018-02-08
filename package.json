@@ -1,0 +1,18 @@
+{
+  "name": "academyapp",
+  "version": "1.0.0",
+  "description": "Starting Day 0 like your 3rd year",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chidi Udeze",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.3",
+    "semantic-ui": "^2.2.14"
+  }
+}

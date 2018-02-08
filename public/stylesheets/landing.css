@@ -1,0 +1,66 @@
+html, body{
+    margin: 0;
+
+    padding: 0;
+
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+
+    min-height: 101%;
+    height: 101%;
+    max-height: 101%;
+
+    overflow: hidden;
+}
+
+.container {
+  height: 100%;
+}
+
+.first{
+  background-color: rgb(255,255,255);
+}
+
+.second{
+  background: #ffb347;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #ffb347);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #ffb347); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.ui.grid {
+  height: 100%;
+}
+
+.ui.form  {
+  padding-top: 5%;
+}
+
+.ui.form .field:last-child, .ui.form .fields:last-child .field {
+    width: 40%
+}
+
+.ui.form .fields>.field:first-child {
+  width: 40%;
+}
+
+.ui.form input:not([type]), .ui.form input[type=date], .ui.form input[type=datetime-local], .ui.form input[type=email], .ui.form input[type=file], .ui.form input[type=number], .ui.form input[type=password], .ui.form input[type=search], .ui.form input[type=tel], .ui.form input[type=text], .ui.form input[type=time], .ui.form input[type=url] {
+  width: 100%;
+}
+
+.ui.two.column.centered.grid {
+  margin: auto 0;
+}
+
+#sign {
+
+}
+
+.ui.large.header {
+  padding-top: 9%;
+}
+
+.ui.large.header p{
+  margin: 0;
+}
