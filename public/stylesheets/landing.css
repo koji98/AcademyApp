@@ -12,6 +12,8 @@ html, body{
     max-height: 101%;
 
     overflow: hidden;
+
+
 }
 
 .container {
@@ -24,8 +26,8 @@ html, body{
 
 .second{
   background: #ffb347;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffffff, #ffb347);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffffff, #ffb347); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #ffffff,#ef3b36);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #ef3b36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -63,4 +65,30 @@ html, body{
 
 .ui.large.header p{
   margin: 0;
+}
+
+#top {
+  padding-top: 31.5%;
+}
+
+.ui.list .list>.item, .ui.list>.item, ol.ui.list li, ul.ui.list li {
+  padding: 3.75%;
+}
+
+.ui.list {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 15%;
+}
+
+i.icon {
+  color: black;
+}
+
+.ui.large.header {
+  font-size: 27px;
+}
+
+.ui.dividing.header {
+  font-size: 18px;
 }
